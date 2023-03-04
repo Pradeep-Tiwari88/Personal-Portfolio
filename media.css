@@ -1,0 +1,458 @@
+
+@media(max-width:1024px)
+{
+ .header
+ {
+       padding: 20px;
+ }
+ .logo
+ {
+ 	font-size: 20px;
+ }
+ .top-content p 
+ {
+ 	font-size: 16px;
+ }	
+ .navbar a
+ {
+ 	font-size: 16px;
+ }
+ .top-img
+ {
+ 	width: 100%;
+ }
+ .main-img .main_big_img 
+ {
+ 	width: 350px;
+ }
+
+
+
+}
+
+@media(max-width:768px)
+{
+
+	.top_area
+	{
+		flex-direction: column-reverse;
+		height: auto;
+		padding: 100px 10px;
+	}
+	.top-content
+	{   width: 100%;
+		display:wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.top_area .btn 
+	{
+		margin: 0 auto;
+	}
+	.top-content p 
+	{
+		font-size: 14px;
+		text-align: center;
+		padding: 0 100px;
+		margin: 30px 0;
+
+	}
+	.top-content h2
+	{
+		
+		text-align: center;
+		padding: 10px 0;
+	}
+	.top-content h2 span 
+	{
+		
+		text-align: center;
+	}
+
+	.top-content .web
+	{
+		text-align: center;
+		padding: 10px 0;
+	}
+	.top-content .banner_name
+	{
+		font-size: 45px;
+		text-align: center;
+	}
+	.top-content .banner_name:before
+	{
+		font-size: 45px;
+	}
+	.skill_card .skill_para
+	{
+		height: auto;
+	}
+	
+
+	.img-set
+	{
+		display: none;
+	}
+
+
+ 	.responsive_navbar
+	{
+		display: block;
+		position: fixed;
+		width: 60%;
+		top: 0;
+		border-radius: 10px 0 0 10px;
+		bottom: 0;
+		right: -100%;
+		background: #fff;
+		box-shadow: -12px 0 10px 4px rgba(35, 35, 35, 0.5);
+		z-index: 9999;
+		padding: 40px;
+		transform: scale(0.2);
+		transition: 0.5s, opacity 300ms ease-in-out;
+		box-shadow: 35px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.responsive_navbar ul
+	{
+		width: 100%;
+	}
+
+	.responsive_navbar ul li
+	{
+		list-style: none;
+		width: 100%;
+		margin: 10px 0;
+		position: relative;
+	}
+
+
+	.responsive_navbar ul li:before
+	{
+		position: absolute;
+		left: 0;
+		content: "";
+		width: 4px;
+		height: 100%;
+		background: #0099ff;
+		transition: 0.4s;
+	}
+
+
+	.responsive_navbar ul li:hover:before
+	{
+		width: 100%;
+		z-index: -1;
+		border-radius: 0 35px 35px 0;
+	}
+
+	.responsive_navbar ul li a 
+	{
+		display: block;
+		width: 100%;
+	 	text-decoration: none; 
+	 	font-size: 30px;
+	 	color: #0099ff;
+	 	font-family: var(--normalFont);
+	 	transition: 0.4s;
+	 	padding: 10px;
+	}
+
+	.responsive_navbar ul li:hover a
+	{
+		color: #fff;
+		z-index: 2;
+	}
+	
+
+	.responsive_navbar .responsive_close
+	{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		cursor: pointer;
+	}
+
+
+	.navBar_open
+	{
+		right: 0;
+		transform: scale(1.0);
+	}
+
+	.responsive_close i
+	{
+		font-size: 40px;
+	}
+
+	.responsive_icon
+	{
+		display:block;
+		font-size: 30px;
+		cursor: pointer;
+	}
+
+	.header .navbar
+	{
+		display: none;
+	}
+	.service_card
+	{
+		width: 100%;
+	}
+	.skill_main .skill_card
+	{
+		width: 100%;
+	}
+	.price_card_container .price_card
+	{
+		width: 100%;
+	}
+	.send_message_main
+	{
+		flex-direction: column;
+		width: 100%;
+
+	}
+	.personal_info
+	{
+		display: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contact
+	{
+		padding: 60px 10px;
+	}
+
+}
+
+@media(max-width: 560px)
+{
+	.responsive_navbar
+	{
+		width: 100%;
+	}	
+  .main-img .main_small_img
+  {
+  	width: 260px;
+  }
+  .main-img .main_big_img 
+  {
+  	width: 280px;
+  }
+
+.main-img .main_icon_dot
+{
+  display: none;
+}
+.top-content p
+{
+	width: 100%;
+	padding: 0;
+
+}
+.top-content .btn
+{
+	width: 160px;
+	font-size: 14px;
+}
+.contact
+	{
+		padding: 30px 0;
+	}
+
+	.service 
+	{
+	 padding: 20px 10px;
+	}
+	 .service_main:before
+	 {
+	 	font-size: 200px;
+	 }
+	  .service_pricing a 
+	  {
+	  	width: 130px;
+	  }
+
+	 .skill
+	 {
+	 	padding: 20px 10px;
+	 }
+
+	 .skill_main:before
+	 {
+	 	font-size: 200px;
+	 	padding: 50px 0;
+	 }
+	 .price
+	 {
+	 	padding: 20px 10px;
+	 }
+
+	 .contact
+	 {
+	 	padding: 20px 10px;
+	 }
+
+	 .input_area input, textarea
+	 {
+	 	padding: 0 10px;
+	 	height: 30px;
+	 }
+	 .form_main .submit_main .send_btn
+	 {
+	 	width: 140px;
+	 	align-items:center;
+	 	justify-content: center;
+	 	display: flex;
+	 }
+	 .send_btn
+	 {  
+	 	width: 100%;
+	 	align-items:center;
+	 	justify-content:space-evenly;
+	 	display: flex;
+	 }
+
+
+	 .submit_main .send_btn:before
+	 {
+	     width: 40px;
+	     height: 3px;
+	     left: -33%;
+	     top: 50%;
+	 }
+	 .form_name
+	 {
+	 	margin: 20px 0;
+	 }
+	 .contact_talk h1 
+	 {
+	 	font-size: 25px;
+	 }
+	 .contact_talk p 
+	 {
+	 	font-size: 14px;
+	 }
+	 .form_name
+	 {
+	 	font-size: 14px;
+	 }
+
+}
+
+@media(max-width: 425px)
+{
+	.responsive_navbar
+	{
+		width: 100%;
+	}	
+  .main-img .main_small_img
+  {
+  	width: 260px;
+  }
+  .main-img .main_big_img 
+  {
+  	width: 280px;
+  }
+
+.main-img .main_icon_dot
+{
+  display: none;
+}
+.top-content p
+{
+	width: 100%;
+	padding: 0;
+
+}
+.top-content .btn
+{
+	width: 160px;
+	font-size: 14px;
+}
+.contact
+	{
+		padding: 30px 0;
+	}
+
+	.service 
+	{
+	 padding: 20px 10px;
+	}
+	 .service_main:before
+	 {
+	 	font-size: 200px;
+	 }
+	  .service_pricing a 
+	  {
+	  	width: 130px;
+	  }
+
+	 .skill
+	 {
+	 	padding: 20px 10px;
+	 }
+	 .skill_main:before
+	 {
+	 	font-size: 200px;
+	 	padding: 50px 0;
+	 }
+	 .price
+	 {
+	 	padding: 20px 10px;
+	 }
+
+	 .contact
+	 {
+	 	padding: 20px 10px;
+	 }
+
+	 
+	 .form_main .submit_main .send_btn
+	 {
+	 	width: 140px;
+	 	align-items:center;
+	 	justify-content: center;
+	 	display: flex;
+	 }
+	 .send_btn
+	 {  
+	 	width: 100%;
+	 	align-items:center;
+	 	justify-content:space-evenly;
+	 	display: flex;
+	 }
+
+
+	 .submit_main .send_btn:before
+	 {
+	     width: 40px;
+	     height: 3px;
+	     left: -33%;
+	     top: 50%;
+	 }
+	 .form_name
+	 {
+	 	margin: 20px 0;
+	 }
+	 .contact_talk h1 
+	 {
+	 	font-size: 25px;
+	 }
+	 .contact_talk p 
+	 {
+	 	font-size: 14px;
+	 }
+	 .form_name
+	 {
+	 	font-size: 14px;
+	 }
+
+}

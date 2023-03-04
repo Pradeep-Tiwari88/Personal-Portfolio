@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pradeep Tiwari | Personal Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<script src="https://kit.fontawesome.com/ffd01bc422.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="main">
+		<div class="container">
+			<header class="header">
+				<a href="#" class="logo">Port<span>Folio</span>.</a>
+
+				<nav class="navbar">
+					<a href="#" style="--i:1;" class="active">Home</a>
+					<a href="#service_sec" style="--i:2;">Service</a>
+					<a href="#skill_sec" style="--i:3;">Skill</a>
+					<a href="#pricing_sec" style="--i:4;">Work</a>
+					<a href="#contact_sec" style="--i:5;">Contact</a>
+				</nav>
+
+				<div class="responsive_icon" onclick="res_nav_open()">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+			</header>
+
+			 <div class="responsive_navbar" id="responsive_navbar">
+			 	<div class="responsive_close" onclick="res_nav_close()">
+			 		<i class="fa-sharp fa-regular fa-circle-xmark"></i>	
+			 	</div>
+				<ul>
+					<li><a href="#" class="active" onclick="res_nav_close()">Home</a></li>
+					<li><a href="#service_sec" class="service_sec" onclick="res_nav_close()">Service</a></li>
+					<li><a href="#skill_sec" onclick="res_nav_close()">Skill</a></li>
+					<li><a href="#pricing_sec"onclick="res_nav_close()">Work</a></li>
+					<li><a href="#contact_sec"onclick="res_nav_close()">Contact</a></li>
+				</ul>	
+			</div>
+
+			<section class="top_area">
+				<div class="top-content">
+					<h2>Hello, <span>i am</span></h2>
+					<h1 class="banner_name">Pradeep Tiwari</h1>
+					<h1 class="web">Web Designer</h1>
+					<p>From Delhi, India. I have rich experience in web design and I'm very passionate and dedicated to my work. I love to talk with you about our unique.</p>
+					<a href="#" class="btn">Download CV</a>
+				</div>
+
+				<div class="top-img">	
+					<div class="main-img">
+						<img src="img/profile_pic.png" class="main_big_img">
+						<img src="img/profile_pic.png" class="main_small_img">
+						<img src="img/dot_icon.png" class="main_icon_dot">
+					</div>
+					<div class="img-set">
+						<img class="banner_icon_img top" src="img/html.png">
+						
+						<img class="banner_icon_img left" src="img/css.png">
+						<img class="banner_icon_img bottom" src="img/js.jpg">
+					</div>	
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L60,181.3C120,171,240,149,360,165.3C480,181,600,235,720,234.7C840,235,960,181,1080,160C1200,139,1320,149,1380,154.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+			</section>
+
+
+			<section class="service" id="service_sec">
+				<div class="service_main">
+					<div class="section_head service_head">
+						<h2>What I Do</h2>
+						<p>My <span>Services</span></p>
+					</div>
+					<div class="service_card">
+						<span class="service_name">Web Developer</span>
+						<h3>Web Developer & Poster Designer</h3>
+						<p>As a web designer, I use my creativity and technical skills to design and build websites that are not only visually appealing but also highly functional and user-friendly.</p>
+
+						<img src="img/dot_icon.png" class="service_icon_dot">
+						<div class="service_pricing">
+							<a href="pricing">See Pricing</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="skill" id="skill_sec">
+				<div class="section_head service_head">
+					<h2>PROFESSIONAL SKILLS</h2>
+					<p>My <span>Talent</span></p>
+				</div>
+
+				<div class="skill_main">
+					<div class="skill_card html_card">
+						<div class="skill_name"><h2>HTML</h2><h2 class="skill_value">85<span>%</span></h2></div>
+						<div class="skill_para">Using HTML, I can build the structure of your web pages, including headings, paragraphs, images, links, and forms.</div>
+						<div class="skill_line html_line"></div>
+					</div>
+
+					<div class="skill_card css_card">
+						<div class="skill_name"><h2>CSS</h2><h2 class="skill_value">89<span>%</span></h2></div>
+						<div class="skill_para">Using CSS I can customize the look and feel of your web pages, including the fonts, color, layout, and visul elements.</div>
+						<div class="skill_line css_line"></div>
+					</div>
+
+					<div class="skill_card javascript_card">
+						<div class="skill_name"><h2>JavaScript</h2><h2 class="skill_value">70<span>%</span></h2></div>
+						<div class="skill_para">Whit my JavaScript knowledge, I can help you create a dynamic and interactive website that engages your visitors and enhances their user experience.</div>
+						<div class="skill_line javascript_line"></div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="price" id="pricing_sec">
+				<div class="section_head price_head">
+					<h2>PRICING</h2>
+					<p>My <span>Price Board</span></p>
+				</div>
+
+				<div class="price_card_container">
+					<div class="price_card one_hour">
+						<div class="Price_hour">
+							<p>HOURLEY BASIS</p>
+						</div>
+
+						<div class="price_value">
+							<h2>5<span>$</span></h2>
+							<h2 class="work_type">Hour</h2>
+						</div>
+
+						<div class="price_para"> 
+							<p>As a web designer, I take pride in my ability to create visually stunning and functional websites that meet the needs of my clients.</p>
+						</div>
+
+						<div class="pricing_work">
+							<p class="provided_work WEB">WEB DESIGNING</p>
+							<p class="provided_work POSTER">POSTER DESIGNING</p>
+						</div>
+
+						<div class="price_click">
+							<a href="#">START PROJECT</a>
+						</div>
+					</div>
+
+					<div class="price_card one_hour">
+						<div class="Price_hour">
+							<p>FREELANCING</p>
+						</div>
+
+						<div class="price_value">
+							<h2>100<span>$</span></h2>
+							<h2 class="work_type">Week</h2>
+						</div>
+
+						<div class="price_para"> 
+							<p>Whit a keen eye for design and attention to detail, I strive to deliver website that exceed my clients' expectations.</p>
+						</div>
+
+						<div class="pricing_work">
+							<p class="provided_work WEB">WEB DESIGNING</p>
+							<p class="provided_work POSTER">POSTER DESIGNING</p>
+						</div>
+
+						<div class="price_click">
+							<a href="#">START PROJECT</a>
+						</div>
+					</div>
+
+					<div class="price_card one_hour">
+						<div class="Price_hour">
+							<p>FULL TIME</p>
+						</div>
+
+						<div class="price_value">
+							<h2>250<span>$</span></h2>
+							<h2 class="work_type">Month</h2>
+						</div>
+
+						<div class="price_para"> 
+							<p>Contact me today to discuss your web design needs and let's work together to bring your vision to life.</p>
+						</div>
+
+						<div class="pricing_work">
+							<p class="provided_work WEB">WEB DESIGNING</p>
+							<p class="provided_work POSTER">POSTER DESIGNING</p>
+						</div>
+
+						<div class="price_click">
+							<a href="#">START PROJECT</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+
+			<section class="contact" id="contact_sec">
+				<div class="section_head price_head">
+					<h2>PRICING</h2>
+					<p>My <span>Price Board</span></p>
+				</div>
+				<div class="send_message_main">
+
+					<div class="personal_info">
+						<div class="contact_talk">
+							<div class="talk_main">
+								<div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+								<div class="talk_main_display">
+									<h1>Address</h1>
+									<p>Saket, New Delhi, India</p>		
+								</div>	
+							</div> 
+						</div>    
+
+						<div class="contact_talk">
+							<div class="talk_main">
+								<div class="icon">
+									<i class="fa-solid fa-user"></i>
+								</div>
+								<div class="talk_main_display">
+									<h1>Freelance</h1>
+									<p>Will be available soon</p>		
+								</div>	
+							</div>
+						</div>     
+
+						<div class="contact_talk">
+							<div class="talk_main">
+								<div class="icon">
+									<i class="fa-sharp fa-solid fa-envelope"></i>
+								</div> 
+								<div class="talk_main_display">
+									<h1>Email</h1>
+									<p>pt8810337082@gmail.com</p>		
+								</div>	
+							</div>
+						</div>      
+					</div>
+ 
+					<div class="contact_message_main">
+						<form class="form_main" id="form_main">
+							<div class="form_name">
+								<div class="input_area name_box">
+									<label for="fname">Your Full Name</label><br><br>
+									<input type="text" id="nameId" name="fname" onkeyup="name_keyUp()">
+									<span id="name_error" class="formError"></span>
+								</div>
+
+								<div class="input_area name_box">
+									<label for="lname">Your Email Address</label><br><br>
+									<input type="text" id="emailId" name="lname" onkeyup="email_keyUp()" >
+									<span id="email_error" class="formError"></span>
+								</div>
+							</div>
+							<div class="input_area Subject_main">
+								<label for="lname">Your Subject</label><br><br>
+								<input type="text" id="subjectId" name="fname" onkeyup="subject_keyUp()">
+								<span id="subject_error" class="formError"></span>
+							</div>
+							<div class="input_area message_main">
+								<label for="lname">Your Message</label><br><br>
+								<textarea type="text" id="messageId" name="fname" onkeyup="message_keyUp()"></textarea>
+								<span id="message_error" class="formError"></span>
+							</div>
+						</form>
+							<div class="message_send_btn">
+								<button class="messageSendBtn" id="messageSendBtn">Send Message</button>
+							</div>
+
+					</div>
+
+				</div>
+			</section>
+
+			<div class="thanksPopup" id="thankspopup">
+				<div class="fade" id="fade" onclick="popupClose()"></div>
+				<div class="popupCard" id="popupCard">
+				 <div class="popup_design">	
+					<div class="popup_check"><i class="fa-solid fa-check"></i></div>
+					<div class="popup_p">
+						<h1>Thanks You !!</h1>
+						<p>I will reply to you message in some time</p></div>
+					<div class="popup_button">
+					<button onclick="popupClose()">OK</button>
+				</div>
+				</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+<!-- JavaScript Code --------------------- -->
+
+
+
+
+<!-- SMTP Link Code -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript">
+		// SMTP Email Send Script --------------------------------->
+	
+	let sendBtn = document.getElementById('messageSendBtn');
+	let popup = document.getElementById('thankspopup');
+
+	
+
+
+	
+	// let emailError = document.getElementById('');
+	// let subjectError = document.getElementById('');
+	// let messageError = document.getElementById('');
+	// sendBtn.addEventListener('submit', (e)=>{
+	// 	e.preventDefault();
+	// 	console.log('click');
+	// 	// sendMessage();
+	// })
+
+	sendBtn.addEventListener('click', function() {
+		let contactname = document.getElementById('nameId').value;
+		let contactemail = document.getElementById('emailId').value;
+		let contactsubject = document.getElementById('subjectId').value;
+		let contactmessage = document.getElementById('messageId').value;
+
+		// let nameError = document.getElementById('name_error');
+
+		if (contactname.length == 0) 
+		{
+			document.getElementById('name_error').style.display = "block";
+			document.getElementById('name_error').innerHTML = 'This field is required';
+		}
+
+		else if (contactemail.length === 0) 
+		{
+			document.getElementById('email_error').style.display = "block"
+			document.getElementById('email_error').innerHTML = 'This field is required'
+		}
+
+		else if (contactsubject.length == 0)
+		{
+			document.getElementById('subject_error').style.display = "block"
+			document.getElementById('subject_error').innerHTML = 'This field is required'
+		}
+
+		else if (contactmessage.length == 0)
+		{
+			document.getElementById('message_error').style.display = "block"
+			document.getElementById('message_error').innerHTML = 'This field is required'
+		}
+
+		else
+		{
+			Email.send({
+	SecureToken : "71a291df-9f0a-4d4e-a0fd-2e0c4720a4c5",
+	To : 'pradeepweb8810@gmail.com',
+	From : "pradeepweb8810@gmail.com",
+	// ReplyFrom : document.getElementById("emailId").value,
+	Subject : "This is the subject",
+	Body : `Name: ${contactname} <br> Email: ${contactemail} <br> Subject: ${contactsubject} <br> Message ${contactmessage}` ,
+}).then(
+	// popup.style.display = "block",
+	document.getElementById('popupCard').classList.add('popupOpen'),
+	document.getElementById('fade').style.display = "block",
+);
+document.getElementById('form_main').reset();
+document.getElementById('name_error').style.display = "none";
+document.getElementById('email_error').style.display = "none";
+document.getElementById('subject_error').style.display = "none";
+document.getElementById('message_error').style.display = "none";
+		}
+
+
+		
+	})
+
+
+
+
+	function name_keyUp() {
+		let name = document.getElementById('nameId').value;
+		let nameError = document.getElementById('name_error');
+		
+		if (name.length == 0) 
+		{
+			nameError.style.display = "block"
+			nameError.innerHTML = 'Name field is required'
+		}
+
+		else if (name.length <= 2 || name.length > 20) 
+		{
+			nameError.style.display = "block"
+			nameError.innerHTML = 'name should be 3 to 20 charachters'
+		}
+
+		else if (name.length >= 2 || name.length <= 20) 
+		{
+			nameError.style.display = "block"
+			nameError.innerHTML = 'valid'
+		}
+	}
+
+
+	function email_keyUp() {
+		let email = document.getElementById('emailId').value;
+		let emailError = document.getElementById('email_error');
+		let validEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+		
+		if (email.length == 0) 
+		{
+			emailError.style.display = "block"
+			emailError.innerHTML = 'Email field is required'
+		}
+
+		else if (!email.match(validEmail)) 
+		{
+		    emailError.style.display = "block"
+			emailError.innerHTML = 'This email is not valid'
+		}
+
+		else if (email.match(validEmail)) 
+		{
+			emailError.style.display = "block"
+			emailError.innerHTML = 'valid'
+		}
+	}
+
+	function subject_keyUp() {
+		let subject = document.getElementById('subjectId').value;
+		let subjectError = document.getElementById('subject_error')
+		let sub_required = 30;
+		let sub_left = sub_required - subject.length;
+
+		if (subject.length == 0) 
+		{
+			subjectError.style.display = "block";
+			subjectError.innerHTML = "Subject field is required"
+		}
+
+		else if (sub_left > 0) 
+		{
+			subjectError.style.display = "block";
+			subjectError.innerHTML = (sub_left + "more character required")
+		}
+
+		else
+		{
+			subjectError.style.display = "block";
+			subjectError.innerHTML = "valid"
+		}
+	}
+
+
+	function message_keyUp() {
+		let message = document.getElementById('messageId').value;
+		let messageError = document.getElementById('message_error')
+		let mes_required = 90;
+		let mes_left = mes_required - message.length;
+
+		if (message.length == 0) 
+		{
+			messageError.style.display = "block";
+			messageError.innerHTML = "Subject field is required"
+		}
+
+		else if (mes_left > 0) 
+		{
+			messageError.style.display = "block";
+			messageError.innerHTML = (mes_left + "more character required")
+		}
+
+		else
+		{
+			messageError.style.display = "block";
+			messageError.innerHTML = "valid"
+		}
+	}
+
+ 
+
+
+	function popupClose() {
+		document.getElementById('popupCard').classList.remove('popupOpen');
+		document.getElementById('fade').style.display = "none";
+	}
+
+</script>
+
+
+
+<script type="text/javascript">
+	
+	// Popup Script ------------------------->
+
+	function res_nav_open() 
+	{
+		document.getElementById('responsive_navbar').classList.add('navBar_open')
+	}
+
+	function res_nav_close() 
+	{
+		document.getElementById('responsive_navbar').classList.remove('navBar_open')
+	}
+
+	
+
+
+	// Sticky Header ---------------------------------------->
+
+window.addEventListener("scroll", function () {
+    header = document.querySelector(".header");
+    header.classList.toggle("sticky", window.scrollY > 80);
+  })
+
+</script>
+
+
+</body>
+</html>
